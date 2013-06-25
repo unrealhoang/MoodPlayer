@@ -15,5 +15,67 @@
             android:paddingRight="10dp"
             android:paddingBottom="10dp">
     </LinearLayout>
-    
+
+    <TableLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_gravity="left|center_vertical">
+
+        <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1">
+
+            <ImageButton
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:id="@+id/mood_picker_btn_mood_1"
+                    android:layout_weight="1"/>
+
+            <ImageButton
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:id="@+id/mood_picker_btn_mood_2"
+                    android:layout_weight="1"/>
+        </TableRow>
+
+        <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:id="@+id/tableRow"
+                android:layout_weight="1">
+
+            <ImageButton
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:id="@+id/mood_picker_btn_mood_3"
+                    android:layout_weight="1"/>
+
+            <ImageButton
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:id="@+id/mood_picker_btn_mood_4"
+                    android:layout_weight="1"/>
+        </TableRow>
+
+        <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:id="@+id/tableRow2"
+                android:layout_weight="1">
+
+            <ImageButton
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:id="@+id/mood_picker_btn_mood_5"
+                    android:layout_weight="1"/>
+
+            <ImageButton
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:id="@+id/mood_picker_btn_mood_6"
+                    android:layout_weight="1"/>
+        </TableRow>
+    </TableLayout>
+
 </LinearLayout>
