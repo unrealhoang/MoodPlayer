@@ -4,12 +4,17 @@ import android.os.Bundle;
 import android.app.Activity;
 import android.view.Menu;
 
+import java.util.List;
+
+import vn.silverlining.moodplayer.model.Song;
+
 public class MainActivity extends Activity {
+    List<Song> currentPlayingList;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.media_player);
     }
 
 
