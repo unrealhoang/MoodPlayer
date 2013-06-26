@@ -64,6 +64,7 @@ public class MediaController implements MediaPlayer.OnCompletionListener {
             pos = 0;
 
         try {
+            mediaPlayer.reset();
             mediaPlayer.setDataSource(playingList.get(pos).getUrl());
             mediaPlayer.prepare();
             mediaPlayer.start();

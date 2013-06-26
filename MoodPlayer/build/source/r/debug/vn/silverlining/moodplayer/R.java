@@ -20,10 +20,9 @@ public final class R {
         public static final int ic_launcher=0x7f020002;
     }
     public static final class id {
-        public static final int action_settings=0x7f080015;
+        public static final int action_settings=0x7f080016;
         public static final int btnBox=0x7f080003;
         public static final int btnShare=0x7f080002;
-        public static final int button=0x7f08000c;
         public static final int imageButton=0x7f08000a;
         public static final int imageView=0x7f080004;
         public static final int media_player_btn_ban=0x7f080007;
@@ -32,16 +31,18 @@ public final class R {
         public static final int media_player_btn_prev=0x7f080005;
         public static final int media_player_lbl_artist=0x7f080001;
         public static final int media_player_lbl_title=0x7f080000;
-        public static final int mood_picker_btn_mood_2=0x7f08000d;
-        public static final int mood_picker_btn_mood_3=0x7f080010;
-        public static final int mood_picker_btn_mood_4=0x7f080011;
-        public static final int mood_picker_btn_mood_5=0x7f080013;
-        public static final int mood_picker_btn_mood_6=0x7f080014;
+        public static final int mood_picker_btn_mood_1=0x7f08000c;
+        public static final int mood_picker_btn_mood_2=0x7f08000e;
+        public static final int mood_picker_btn_mood_3=0x7f080011;
+        public static final int mood_picker_btn_mood_4=0x7f080012;
+        public static final int mood_picker_btn_mood_5=0x7f080014;
+        public static final int mood_picker_btn_mood_6=0x7f080015;
         public static final int seekBar=0x7f080009;
-        public static final int tableRow=0x7f08000f;
-        public static final int tableRow2=0x7f080012;
+        public static final int tableRow=0x7f080010;
+        public static final int tableRow2=0x7f080013;
         public static final int textView=0x7f08000b;
-        public static final int textView3=0x7f08000e;
+        public static final int textView2=0x7f08000d;
+        public static final int textView3=0x7f08000f;
     }
     public static final class layout {
         public static final int media_player=0x7f030000;

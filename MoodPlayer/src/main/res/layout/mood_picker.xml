@@ -53,13 +53,34 @@
                 android:layout_height="fill_parent"
                 android:layout_weight="1">
 
-            <Button
+            <FrameLayout
                     android:layout_width="fill_parent"
                     android:layout_height="fill_parent"
-                    android:text="New Button"
-                    android:id="@+id/mood_picker_btn_mood_1"
-                    android:layout_weight="1"
-                    android:background="#E06D6E"/>
+                    android:layout_weight="1">
+
+                <ImageButton
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:id="@+id/mood_picker_btn_mood_1"
+                        android:layout_weight="1"
+                        android:clickable="true"
+                        android:background="#e06d6e"/>
+
+                <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:text="Love"
+                        android:id="@+id/textView2"
+                        android:layout_gravity="center"
+                        android:textIsSelectable="false"
+                        android:textSize="32dp"/>
+                <View
+                        android:layout_width="1dp"
+                        android:layout_height="fill_parent"
+                        android:background="@android:color/white"
+                        android:alpha="0.6"/>
+            </FrameLayout>
 
             <FrameLayout
                     android:layout_width="fill_parent"
