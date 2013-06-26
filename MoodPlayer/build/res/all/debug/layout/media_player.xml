@@ -19,7 +19,7 @@
                 android:orientation="vertical"
                 android:layout_width="fill_parent"
                 android:layout_height="92dp"
-                android:background="#353535"
+                android:background="#000000"
                 android:paddingLeft="10dp"
                 android:paddingTop="10dp"
                 android:paddingRight="10dp"
@@ -126,7 +126,7 @@
                         android:src="@drawable/previous"
                         android:id="@+id/media_player_btn_prev"
                         android:layout_weight="1"
-                        android:background="#554b76"
+                        android:background="@drawable/previous_selector"
                         tools:ignore="NewApi"
                         android:clickable="true"
                         />
