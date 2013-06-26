@@ -6,14 +6,41 @@
               android:layout_height="match_parent">
 
     <LinearLayout
-            android:orientation="vertical"
+            android:orientation="horizontal"
             android:layout_width="fill_parent"
             android:layout_height="96dp"
             android:background="#ff3da3fb"
-            android:paddingLeft="10dp"
-            android:paddingTop="10dp"
-            android:paddingRight="10dp"
-            android:paddingBottom="10dp">
+
+>
+        <ImageButton
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:id="@+id/imageButton"
+                android:layout_gravity="left|center_vertical"
+                android:layout_weight="3"
+                android:background="#6f618d"/>
+
+        <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:paddingLeft="10dp"
+                android:paddingTop="10dp"
+                android:paddingRight="10dp"
+                android:paddingBottom="10dp"
+                android:background="#353535">
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="What do you feel?"
+                    android:id="@+id/textView"
+                    android:layout_gravity="center"
+                    android:singleLine="true"
+                    android:gravity="center_vertical|center_horizontal"/>
+        </LinearLayout>
     </LinearLayout>
 
     <TableLayout
@@ -26,17 +53,42 @@
                 android:layout_height="fill_parent"
                 android:layout_weight="1">
 
-            <ImageButton
+            <Button
                     android:layout_width="fill_parent"
                     android:layout_height="fill_parent"
+                    android:text="New Button"
                     android:id="@+id/mood_picker_btn_mood_1"
-                    android:layout_weight="1"/>
+                    android:layout_weight="1"
+                    android:background="#E06D6E"/>
 
-            <ImageButton
+            <FrameLayout
                     android:layout_width="fill_parent"
                     android:layout_height="fill_parent"
-                    android:id="@+id/mood_picker_btn_mood_2"
-                    android:layout_weight="1"/>
+                    android:layout_weight="1">
+                <View
+                        android:layout_width="1dp"
+                        android:layout_height="fill_parent"
+                        android:background="@android:color/white"
+                        android:alpha="0.6"/>
+                <ImageButton
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:id="@+id/mood_picker_btn_mood_2"
+                        android:layout_weight="1"
+                        android:clickable="true"
+                        android:background="#707b7d"/>
+
+                <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:text="Sad"
+                        android:id="@+id/textView3"
+                        android:layout_gravity="center"
+                        android:textSize="32dp"
+                        android:textIsSelectable="false"/>
+            </FrameLayout>
+
         </TableRow>
 
         <TableRow
@@ -45,17 +97,60 @@
                 android:id="@+id/tableRow"
                 android:layout_weight="1">
 
-            <ImageButton
+            <FrameLayout
                     android:layout_width="fill_parent"
                     android:layout_height="fill_parent"
-                    android:id="@+id/mood_picker_btn_mood_3"
-                    android:layout_weight="1"/>
+                    android:layout_weight="1">
 
-            <ImageButton
+                <ImageButton
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:id="@+id/mood_picker_btn_mood_3"
+                        android:layout_weight="1"
+                        android:clickable="true"
+                        android:background="#3f896b"/>
+                <View
+                        android:layout_width="1dp"
+                        android:layout_height="fill_parent"
+                        android:background="@android:color/white"
+                        android:alpha="0.6"/>
+                <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:text="Relax"
+                        android:id="@+id/textView3"
+                        android:layout_gravity="center"
+                        android:textSize="32dp"
+                        android:textIsSelectable="false"/>
+            </FrameLayout>
+            <FrameLayout
                     android:layout_width="fill_parent"
                     android:layout_height="fill_parent"
-                    android:id="@+id/mood_picker_btn_mood_4"
-                    android:layout_weight="1"/>
+                    android:layout_weight="1">
+                <View
+                        android:layout_width="1dp"
+                        android:layout_height="fill_parent"
+                        android:background="@android:color/white"
+                        android:alpha="0.6"/>
+                <ImageButton
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:id="@+id/mood_picker_btn_mood_4"
+                        android:layout_weight="1"
+                        android:clickable="true"
+                        android:background="#cd3539"/>
+                <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:text="\@^#.%"
+                        android:id="@+id/textView3"
+                        android:layout_gravity="center"
+                        android:textSize="32dp"
+                        android:textIsSelectable="false"/>
+            </FrameLayout>
+
         </TableRow>
 
         <TableRow
@@ -64,17 +159,61 @@
                 android:id="@+id/tableRow2"
                 android:layout_weight="1">
 
-            <ImageButton
+            <FrameLayout
                     android:layout_width="fill_parent"
                     android:layout_height="fill_parent"
-                    android:id="@+id/mood_picker_btn_mood_5"
-                    android:layout_weight="1"/>
+                    android:layout_weight="1">
 
-            <ImageButton
+                <ImageButton
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:id="@+id/mood_picker_btn_mood_5"
+                        android:layout_weight="1"
+                        android:clickable="true"
+                        android:background="#edc93c"/>
+                <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:text="Happy"
+                        android:id="@+id/textView3"
+                        android:layout_gravity="center"
+                        android:textSize="32dp"
+                        android:textIsSelectable="false"/>
+                <View
+                        android:layout_width="1dp"
+                        android:layout_height="fill_parent"
+                        android:background="@android:color/white"
+                        android:alpha="0.6"/>
+            </FrameLayout>
+
+            <FrameLayout
                     android:layout_width="fill_parent"
                     android:layout_height="fill_parent"
-                    android:id="@+id/mood_picker_btn_mood_6"
-                    android:layout_weight="1"/>
+                    android:layout_weight="1">
+                <View
+                        android:layout_width="1dp"
+                        android:layout_height="fill_parent"
+                        android:background="@android:color/white"
+                        android:alpha="0.6"/>
+                <ImageButton
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:id="@+id/mood_picker_btn_mood_6"
+                        android:layout_weight="1"
+                        android:clickable="true"
+                        android:background="#85789e"/>
+                <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:text="No Idea"
+                        android:id="@+id/textView3"
+                        android:layout_gravity="center"
+                        android:textSize="32dp"
+                        android:textIsSelectable="false"/>
+            </FrameLayout>
+
         </TableRow>
     </TableLayout>
 

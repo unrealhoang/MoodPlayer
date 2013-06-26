@@ -40,7 +40,7 @@ public class MediaPlayerActivity extends Activity implements MediaController.OnS
     public void onSongChanged(Song changedTo) {
         TextView lblName = (TextView) findViewById(R.id.media_player_lbl_title);
         TextView lblArtist = (TextView) findViewById(R.id.media_player_lbl_artist);
-        TextView lblAlbum = (TextView) findViewById(R.id.media_player_lbl_album);
+        //TextView lblAlbum = (TextView) findViewById(R.id.media_player_lbl_album);
 
         lblName.setText(changedTo.getName());
         lblArtist.setText(changedTo.getArtist());
